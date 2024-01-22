@@ -1,0 +1,1088 @@
+body {
+  color: #000;
+  background: #fff;
+  font: 13px/16px CoFo Sans Lamoda, sans-serif;
+  width: 1600px;
+  
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font: 13px/16px CoFo Sans Lamoda, sans-serif;
+}
+
+.header {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+
+.delivery:hover {
+  opacity: 100%;
+}
+.delivery {
+  width: 206px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  left: 160px;
+  top: 12px;
+  position: absolute;
+  font: 13px/16px CoFo Sans Lamoda, sans-serif;
+  cursor: pointer;
+  opacity: 75%;
+}
+
+.delivery_1 {
+  width: 206px;
+  height: 40px;
+
+  text-align: center;
+  right: 580px;
+  top: 12px;
+  position: absolute;
+  font: 13px/16px CoFo Sans Lamoda, sans-serif;
+  cursor: pointer;
+  opacity: 75%;
+}
+
+.delivery_1:hover {
+  opacity: 100%;
+}
+
+.payment:hover {
+  opacity: 100%;
+}
+
+.payment {
+  width: 206px;
+  height: 40px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  right: 350px;
+  top: 12px;
+  position: absolute;
+  font: 13px/16px CoFo Sans Lamoda, sans-serif;
+  cursor: pointer;
+  opacity: 75%;
+}
+
+.clock:hover {
+  opacity: 100%;
+}
+
+.clock {
+  width: 206px;
+  height: 40px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  right: 120px;
+  top: 12px;
+  position: absolute;
+  font: 13px/16px CoFo Sans Lamoda, sans-serif;
+  cursor: pointer;
+  opacity: 75%;
+}
+
+.link_delivery_1,
+.link_clock,
+.link_payment {
+  color: white;
+}
+
+.link_gender_woman,
+.link_gender_man,
+.link_gender_children {
+  color: #000;
+}
+
+.img_1 {
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  top: -5px;
+  right: 185px;
+}
+
+.img_2 {
+  height: 23px;
+  width: 27px;
+  position: absolute;
+  top: -5px;
+  left: -22px;
+}
+
+.img_3 {
+  height: 23px;
+  width: 27px;
+  position: absolute;
+  top: -5px;
+  left: 0px;
+}
+
+.img_4 {
+  height: 23px;
+  width: 27px;
+  position: absolute;
+  top: -5px;
+  left: -20px;
+}
+
+.img_5_name_site {
+  position: absolute;
+  width: 175px;
+  height: 38px;
+  right: 700px;
+  top: 65px;
+}
+
+.gender-selector_woman:hover,
+.gender-selector_man:hover,
+.gender-selector_children:hover {
+  opacity: 50%;
+}
+
+.gender-selector_woman {
+  position: relative;
+  font-size: 15px;
+  font-style: normal;
+  font-family: "CoFo Sans Lamoda", sans-serif;
+  top: 40px;
+  left: 165px;
+  border-bottom: 1px solid;
+  bottom: 2px;
+  width: 68px;
+  padding-bottom: 5px;
+  margin-right: 20px;
+  opacity: 100%;
+  transition: color 0.2s linear;
+  color: #000;
+}
+
+.gender-selector_man {
+  position: relative;
+  font-size: 15px;
+  font-style: normal;
+  font-family: "CoFo Sans Lamoda", sans-serif;
+  top: 19px;
+  left: 270px;
+  bottom: 5px;
+  width: 80px;
+  opacity: 100%;
+  transition: color 0.2s linear;
+  color: #000;
+}
+
+.gender-selector_children {
+  position: relative;
+  font-size: 15px;
+  font-style: normal;
+  font-family: "CoFo Sans Lamoda", sans-serif;
+  top: 3px;
+  left: 365px;
+  bottom: 5px;
+  width: 80px;
+  opacity: 100%;
+  transition: color 0.2s linear;
+  color: #000;
+}
+
+.sign_in:hover {
+  opacity: 50%;
+}
+
+.sign_in {
+  width: 92px;
+  height: 32px;
+  border: solid 1px black;
+  border-radius: 5px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 260px;
+  top: 80px;
+  opacity: 100%;
+  cursor: pointer;
+  font-size: 12px;
+  font-style: normal;
+  font-family: "CoFo Sans Lamoda", sans-serif;
+}
+
+.shoping_basket {
+  position: absolute;
+  right: 152px;
+  top: 90px;
+  opacity: 100%;
+  font-size: 12px;
+  font-style: normal;
+  font-family: "CoFo Sans Lamoda", sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+.shoping_basket_text {
+  position: absolute;
+  left: 30px;
+  top: 6px;
+  font-family: "CoFo Sans Lamoda", sans-serif;
+  font-size: 16px;
+}
+
+.navigation_buttons {
+  font-weight: normal;
+  width: 50px;
+  height: 727px;
+  display: flex;
+  position: relative;
+  top: 60px;
+  left: 150px;
+  font-family: 'Inter', sans-serif;
+}
+.idea {
+  width: 38px;
+}
+.news {
+  width: 63px ;
+  margin-left: 12px;
+}
+.cloths {
+  width: 57.65px;
+  margin-left: 12px;
+}
+.footwear {
+  margin-left: 12px;
+  width: 45px ;
+
+}
+.accessories {
+  width: 88px;
+  margin-left: 12px;
+}
+.Brends {
+  width: 57px;
+  margin-left: 12px;
+}
+.premium {
+  width: 64px;
+  margin-left: 12px;
+}
+.sport {
+  width: 46px;
+  margin-left: 12px;
+}
+.reseale {
+  width: 46.5px;
+  margin-left: 12px;
+}
+.beauty {
+  width: 60px;
+  margin-left: 18px;
+}
+.home {
+  width: 32px;
+  margin-left: 12px;
+}
+.sale {
+  width: 44px;
+  margin-left: 12px;
+  color: #f93c00;
+}
+
+form.example input[type="text"] {
+  font-size: 17px;
+  border: 1px solid black;
+  float: left;
+  padding-left: 10px;
+  width: 250px;
+  height: 30px;
+  background: white;
+  position: absolute;
+  top: 145px;
+  right: 167px;
+  font-size: 14px;
+}
+
+form.example button {
+  position: absolute;
+  float: left;
+  background: black;
+  color: white;
+  font-size: 15px;
+  border: 1px solid black;
+  border-left: none; /* Prevent double borders */
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+  top: 145px;
+  right: 125px;
+  width: 52px;
+  height: 32px;
+}
+
+form.example button:hover {
+  background: black;
+}
+
+/* Clear floats */
+form.example::after {
+  position: absolute;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.big_text {
+  font-family: 'Inter', sans-serif;
+  font-size: 29px;
+  position: relative;
+  bottom: 600px;
+  left: 420px;
+}
+
+.main_woman {
+  position: absolute;
+  width: 399px;
+  height: 520px;
+  background-size: 100% 100%;
+  left: 145px;
+  top: 280px;
+  border-top: #000 1px solid;
+}
+
+.main_woman_block{
+width: 399px;
+  height: 48px;
+  background: #000;
+  position: relative;
+  top: 472px;
+  opacity: 70%;
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 48px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.main_woman:hover{
+  opacity: 100%;
+}
+
+.main_woman_block:hover{
+  opacity: 100%;
+}
+
+.main_man{
+  position: absolute;
+  width: 399px;
+  height: 520px;
+  background-size: 100% 100%;
+  left: 545px;
+  top: 280px;
+  border-top: #000 1px solid;
+}
+
+.main_man_block{
+  width: 399px;
+    height: 48px;
+    background: #000;
+    position: relative;
+    top: 472px;
+    opacity: 70%;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 48px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .main_man_block:hover{
+    opacity: 100%;
+  } 
+
+.main_kids {
+  position: absolute;
+  width: 399px;
+  height: 520px;
+  background-size: 100% 100%;
+  right: 128px;
+  top: 280px;
+  border-top: #000 1px solid;
+}
+
+.main_kids_block{
+  width: 399px;
+    height: 48px;
+    background: #000;
+    position: relative;
+    top: 472px;
+    opacity: 70%;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 48px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .main_kids_block:hover{
+    opacity: 100%;
+  }
+
+  .delivery_text {
+    position: relative;
+    top: 0px;
+    width: 382.8px;
+    height: 110px;
+    left: 280px;
+  }
+
+  .text_delivery {
+    width: 382.8px;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    left: 185px;
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+  }
+
+  .delivery_text_link {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+
+  .fiting_icon {
+    position: relative;
+    bottom: 145px;
+    width: 372.8px;
+    height: 110px;
+    left: 700px;
+  }
+
+  .fiting{
+    width: 372.8px;
+    height: 40px;
+    position: relative;
+    top: -95px;
+    left: 600px;
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+  }
+
+  .Payment_methods_icon {
+    position: relative;
+    bottom: 295px;
+    width: 325.8px;
+    height: 110px;
+    left: 1080px;
+    
+  }
+  .Payment_methods {
+    width: 325.8px;
+    height: 40px;
+    position: relative;
+    bottom: 240px;
+    left: 1000px;
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+  }
+
+  .brand {
+    height: 156px;
+    width: 960px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 120px;
+    left: 100px;
+  }
+
+  .Nike, .Mango, .Asics, .Tommy, .River, .GAP, .Adidas, .Lacoste {
+    width: 120px;
+    height: 100px;
+    margin-left: 35px;
+  }
+
+  .discount{
+  position: relative;
+  font-size: 33px;
+  left: 220px;
+  font-weight:400;
+  }
+  .additionally {
+  position: relative;
+  font-size: 38px;
+  left: 170px;
+  font-weight:700;
+  top: 15px;
+  }
+  .subscribe {
+    position: relative;
+  font-size: 14px;
+  left: 180px;
+  font-weight:400;
+  top: 30px;
+  }
+  .more {
+    position: relative;
+    font-size: 13px;
+    left: 395px;
+    font-weight:400;
+    top: 14px;
+    text-decoration: none;
+    opacity: 40%;
+  }
+  .more:hover{
+    opacity: 100%;
+  }
+
+  .email{
+    position: relative;
+    top: 40px;
+    left: 180px;
+    display: flex;
+    border: 1px solid;
+    box-sizing: border-box;
+    height: 32px;
+    width: 280px;
+    }
+
+.input_input {
+  box-sizing: border-box;
+    height: 30px;
+    min-width: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: white;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    transition: background-color 50000s,color 50000s,filter 50000s;
+}
+
+.button_1 {
+position: absolute;
+height: 32px;
+width: 123px;
+top: 50px;
+right: 155px;
+background-color: #2796FF;
+border-radius: 5px;
+border: none;
+color: white;
+}
+
+.button_1:hover{
+  background-color: rgb(0, 96, 210);
+}
+
+.button_2 {
+position: absolute;
+height: 32px;
+width: 123px;
+top: 50px;
+right: 0px;
+background-color:#2796FF;
+border-radius: 5px;
+border: none;
+color: white;
+  }
+
+  .button_2:hover{
+    background-color: rgb(0, 96, 210);
+  }
+.app {
+  width: 840px;
+  height: 372px;
+  background-color: #f3f4f1;
+  position: relative;
+  bottom: 180px;
+  left: 520px;
+}
+
+.telefon {
+  position: absolute;
+  left: 0px;
+}
+
+.app_text1 {
+  position: absolute;
+  font-size: 24px;
+  top: 85px;
+  left: 480px;
+}
+.app_text2 {
+  position: absolute;
+  font-size: 15px;
+  top: 120px;
+  left: 535px;
+}
+
+.apple_store_logo {
+  position: relative;
+  top: 165px;
+  left: 553px;
+  width: 139px;
+  height: 40px;
+}
+.google_play_logo {
+  position: absolute;
+  top: 225px;
+  left: 535px;
+  width: 179px;
+  height: 45px;
+}
+
+.popular {
+  position: relative;
+  font-size: 24px;
+  font-weight: 400;
+  left: 125px;
+  bottom: 150px;
+}
+
+.icon_clothes{
+  width: 128px;
+  height: 228px;
+  display: flex;
+  grid-gap: 50px;
+  position: relative;
+  top: -120px;
+  left: 140px;
+}
+.discount_icon {
+  position: relative;
+  height: 16px;
+  width: 42px;
+  left: 140px;
+  top: -135px;
+}
+
+.new_icon{
+  position: relative;
+  height: 16px;
+  width: 42px;
+  top: -135px;
+  left: 925px;
+}
+
+.premium_icon{
+  position: relative;
+  height: 16.5px;
+  width: 56px;
+  top: -135px;
+  left: 35.65em;
+}
+
+.price{
+  display: flex;
+  grid-gap: 175px;
+}
+
+.price_1, .price_2, .price_3, .price_4, .price_5, .price_6{
+  position: relative;
+  top: -130px;
+  left: 140px;
+}
+.price_1{
+  text-decoration: line-through;
+}
+.price_3 {
+left: 132px;
+}
+.price_4 {
+left: 125px;
+}
+.price_5 {
+  left: 120px;
+  text-decoration: line-through;
+}
+.price_6 {
+  left: 120px;
+}
+
+.discount_1 {
+  position: relative;
+  bottom: 11.2em;
+  color: #F93C00;
+  left: 180px;
+}
+.discount_2 {
+  position: relative;
+  bottom: 12.4em;
+  color: #F93C00;
+  left: 78em;
+}
+
+
+.name_clothes {
+  display: flex;
+  grid-gap: 13.5em;
+  position: relative;
+  top: -155px;
+  left: 140px;
+}
+
+.name_clothes3 {
+position: relative;
+right: 25px;
+}
+.name_clothes4 {
+position: relative;
+right: 50px;
+}
+.name_clothes5 {
+  position: relative;
+right: 65px;
+}
+.name_clothes6 {
+  position: relative;
+right: 75px;
+}
+
+footer {
+  width: 100%;
+  height: 600px;
+  background-color: #1C1C1E;
+}
+
+.footer_text{
+  position: relative;
+  font-size: 24px;
+  color:white;
+  left: 140px;
+  top: 50px;
+  line-height: 35px;
+}
+
+.email_2{
+  background-color: #1C1C1E;
+  width: 288px;
+  height: 56px;
+  border: none;
+  border-bottom:  1px white solid;
+  position: relative;
+  left: 140px;
+  top: 60px;
+}
+
+.subscribe2 {
+  width: 127px;
+  height: 32px;
+  background-color: #1C1C1E;
+  border: white 1px solid;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  top: 75px;
+  left: 150px;
+}
+.subscribe:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.condition_discount{
+  position: relative;
+  left: 140px;
+  top: 80px;
+  text-decoration: underline 1px white solid;
+  text-underline-offset: 8px;
+}
+
+.telefon_2 {
+  position: relative;
+  left: 140px;
+  width: 140px;
+  height: 168px;
+  top: 208px;
+}
+.barcode {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 145px;
+  left: 12em;
+}
+
+.footer_text2 {
+  position: relative;
+  font-size: 13px;
+  top: 160px;
+  color: white;
+  left: 23.2em;
+}
+
+.Help{
+  position: relative;
+  left: 55em;
+  bottom: 23em;
+  font-size: 13px;
+  color: white;
+  text-decoration: none white;
+  line-height: 35px;
+}
+
+.Status {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Status:hover {
+  opacity: 0.4;
+}
+.My_orders{
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.My_orders:hover {
+  opacity: 0.4;
+}
+.Delivery{
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Delivery:hover {
+  opacity: 0.4;
+}
+.terms{
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.terms:hover {
+  opacity: 0.4;
+}
+.Return{
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Return:hover {
+  opacity: 0.4;
+}
+.Placing_order{
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Placing_order:hover {
+  opacity: 0.4;
+}
+.Size{
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Size:hover {
+  opacity: 0.4;
+}
+.Support_Lamoda{
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Support_Lamoda:hover {
+  opacity: 0.4;
+}
+.FAQ{
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.FAQ:hover {
+opacity: 0.4;
+}
+.Lamoda_Club{
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Lamoda_Club:hover {
+  opacity: 0.4;
+}
+.Gift_certificates{
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Gift_certificates:hover {
+  opacity: 40%;
+}
+.Help1{
+  font-size: 24px;
+}
+.About_us{
+  position: relative;
+  left: 85em;
+  bottom: 52.5em;
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+  line-height: 34px;
+}
+
+.Magazine {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Magazine:hover{
+  opacity: 0.4;
+}
+.Participation_in_research {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Participation_in_research:hover{
+  opacity: 0.4;
+}
+.Vacancies {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Vacancies:hover{
+  opacity: 0.4;
+}
+.Sustainable_development {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Sustainable_development:hover{
+  opacity: 0.4;
+}
+.Public_offer {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Public_offer:hover{
+opacity: 0.4;
+}
+
+.About_us1 {
+  font-size: 24px;
+}
+
+.partner {
+  position: relative;
+  left: 85em;
+  bottom: 51em;
+  font-size: 13px;
+  color: white;
+  text-decoration: none white;
+  line-height: 38px;
+}
+.partner1 {
+  font-size: 24px;
+}
+.partner_programm {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  line-height: 20px;
+}
+.partner_programm:hover {
+  opacity: 0.4;
+}
+.contractor {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.contractor:hover {
+opacity: 0.4;
+}
+.contractor2 {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.contractor2:hover {
+opacity: 0.4;
+}
+.landlords {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.landlords:hover {
+opacity: 0.4;
+}
+.gift_certificate {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.gift_certificate:hover {
+  opacity: 0.4;
+}
+
+
+
+
+
+
+.more_information{
+  width: 1300px;
+  height: 80px;
+  border-top: 1px solid gray ;
+  position: relative;
+  bottom: 49.7em;
+  left: 140px;
+}
+
+
+
+  
+
+
+
+
+  
+ 
+  
+  
